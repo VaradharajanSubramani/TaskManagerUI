@@ -1,0 +1,28 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+   TaskManager
+  </h1>
+  
+</div>
+<div>
+  <form>
+    <div class="form-group row">
+        <a [routerLink]="'add'" class="btn btn-primary">Create New</a>  &nbsp; &nbsp;
+        <a [routerLink]="'view'" class="btn btn-primary">View All Tasks</a>
+    </div>
+  </form>
+  <!-- <table align="center">
+    <tr>
+      <td>
+        <a [routerLink]="'add'" class="form-control">Add</a> 
+        <a [routerLink]="'view'" class="form-control">View</a>
+
+      </td>
+    </tr>
+  </table> -->
+</div>
+<div>
+  <router-outlet></router-outlet>
+</div>
+
